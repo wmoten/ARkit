@@ -8,10 +8,14 @@
 import SwiftUI
 
 struct PlacementView: View {
+    // This is the View containing a check or X for placing the item in AR space
     @EnvironmentObject var placementSettings : PlacementSettings
     
     var body: some View {
         HStack {
+            
+            Spacer()
+            
             PlacementButton(systemIconName: "xmark.circle.fill"){
                 print("cancel placement button pressed.")
                 self.placementSettings.selectedModel = nil
@@ -35,6 +39,7 @@ struct PlacementView: View {
 }
 
 struct PlacementButton: View {
+    // Reusable button for above view
     let systemIconName: String
     let action: () -> Void
     
