@@ -13,6 +13,19 @@
 		A710DDAF25E2C46A00B00E3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A710DDAE25E2C46A00B00E3C /* Preview Assets.xcassets */; };
 		A710DDBA25E2C46B00B00E3C /* ARFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A710DDB925E2C46B00B00E3C /* ARFTests.swift */; };
 		A710DDC525E2C46B00B00E3C /* ARFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A710DDC425E2C46B00B00E3C /* ARFUITests.swift */; };
+		A77036D625E73261002EE616 /* PlacementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77036D525E73261002EE616 /* PlacementView.swift */; };
+		A78C227525E42E5A00EC6F65 /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A78C226D25E42E5900EC6F65 /* teapot.usdz */; };
+		A78C227625E42E5A00EC6F65 /* toy_car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A78C226E25E42E5900EC6F65 /* toy_car.usdz */; };
+		A78C227725E42E5A00EC6F65 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A78C226F25E42E5900EC6F65 /* chair_swan.usdz */; };
+		A78C227825E42E5A00EC6F65 /* trowel.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A78C227025E42E5900EC6F65 /* trowel.usdz */; };
+		A78C227925E42E5A00EC6F65 /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A78C227125E42E5900EC6F65 /* gramophone.usdz */; };
+		A78C227A25E42E5A00EC6F65 /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A78C227225E42E5900EC6F65 /* tv_retro.usdz */; };
+		A78C227B25E42E5A00EC6F65 /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A78C227325E42E5A00EC6F65 /* toy_robot_vintage.usdz */; };
+		A78C227C25E42E5A00EC6F65 /* toy_drummer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A78C227425E42E5A00EC6F65 /* toy_drummer.usdz */; };
+		A78C228125E430AE00EC6F65 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78C228025E430AE00EC6F65 /* ControlView.swift */; };
+		A78C228625E4440B00EC6F65 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78C228525E4440B00EC6F65 /* BrowseView.swift */; };
+		A78C229325E47D7F00EC6F65 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78C229225E47D7F00EC6F65 /* Model.swift */; };
+		A78C229825E48E2200EC6F65 /* PlacementSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78C229725E48E2200EC6F65 /* PlacementSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +58,19 @@
 		A710DDC025E2C46B00B00E3C /* ARFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A710DDC425E2C46B00B00E3C /* ARFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFUITests.swift; sourceTree = "<group>"; };
 		A710DDC625E2C46B00B00E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A77036D525E73261002EE616 /* PlacementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementView.swift; sourceTree = "<group>"; };
+		A78C226D25E42E5900EC6F65 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = teapot.usdz; path = Assets/teapot.usdz; sourceTree = SOURCE_ROOT; };
+		A78C226E25E42E5900EC6F65 /* toy_car.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_car.usdz; path = Assets/toy_car.usdz; sourceTree = SOURCE_ROOT; };
+		A78C226F25E42E5900EC6F65 /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = chair_swan.usdz; path = Assets/chair_swan.usdz; sourceTree = SOURCE_ROOT; };
+		A78C227025E42E5900EC6F65 /* trowel.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = trowel.usdz; path = Assets/trowel.usdz; sourceTree = SOURCE_ROOT; };
+		A78C227125E42E5900EC6F65 /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = gramophone.usdz; path = Assets/gramophone.usdz; sourceTree = SOURCE_ROOT; };
+		A78C227225E42E5900EC6F65 /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = tv_retro.usdz; path = Assets/tv_retro.usdz; sourceTree = SOURCE_ROOT; };
+		A78C227325E42E5A00EC6F65 /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_robot_vintage.usdz; path = Assets/toy_robot_vintage.usdz; sourceTree = SOURCE_ROOT; };
+		A78C227425E42E5A00EC6F65 /* toy_drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = toy_drummer.usdz; path = Assets/toy_drummer.usdz; sourceTree = SOURCE_ROOT; };
+		A78C228025E430AE00EC6F65 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		A78C228525E4440B00EC6F65 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		A78C229225E47D7F00EC6F65 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A78C229725E48E2200EC6F65 /* PlacementSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +123,14 @@
 			children = (
 				A710DDA725E2C46900B00E3C /* ARFApp.swift */,
 				A710DDA925E2C46900B00E3C /* ContentView.swift */,
+				A78C228025E430AE00EC6F65 /* ControlView.swift */,
+				A78C228525E4440B00EC6F65 /* BrowseView.swift */,
+				A77036D525E73261002EE616 /* PlacementView.swift */,
+				A78C229225E47D7F00EC6F65 /* Model.swift */,
+				A78C229725E48E2200EC6F65 /* PlacementSettings.swift */,
 				A710DDAB25E2C46A00B00E3C /* Assets.xcassets */,
 				A710DDB025E2C46A00B00E3C /* Info.plist */,
+				A78C226C25E354C700EC6F65 /* 3D Assets */,
 				A710DDAD25E2C46A00B00E3C /* Preview Content */,
 			);
 			path = ARF;
@@ -128,6 +160,21 @@
 				A710DDC625E2C46B00B00E3C /* Info.plist */,
 			);
 			path = ARFUITests;
+			sourceTree = "<group>";
+		};
+		A78C226C25E354C700EC6F65 /* 3D Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A78C226F25E42E5900EC6F65 /* chair_swan.usdz */,
+				A78C227125E42E5900EC6F65 /* gramophone.usdz */,
+				A78C226D25E42E5900EC6F65 /* teapot.usdz */,
+				A78C226E25E42E5900EC6F65 /* toy_car.usdz */,
+				A78C227425E42E5A00EC6F65 /* toy_drummer.usdz */,
+				A78C227325E42E5A00EC6F65 /* toy_robot_vintage.usdz */,
+				A78C227025E42E5900EC6F65 /* trowel.usdz */,
+				A78C227225E42E5900EC6F65 /* tv_retro.usdz */,
+			);
+			path = "3D Assets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +280,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A78C227525E42E5A00EC6F65 /* teapot.usdz in Resources */,
+				A78C227625E42E5A00EC6F65 /* toy_car.usdz in Resources */,
+				A78C227B25E42E5A00EC6F65 /* toy_robot_vintage.usdz in Resources */,
 				A710DDAF25E2C46A00B00E3C /* Preview Assets.xcassets in Resources */,
+				A78C227725E42E5A00EC6F65 /* chair_swan.usdz in Resources */,
+				A78C227C25E42E5A00EC6F65 /* toy_drummer.usdz in Resources */,
+				A78C227825E42E5A00EC6F65 /* trowel.usdz in Resources */,
+				A78C227925E42E5A00EC6F65 /* gramophone.usdz in Resources */,
+				A78C227A25E42E5A00EC6F65 /* tv_retro.usdz in Resources */,
 				A710DDAC25E2C46A00B00E3C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A78C229825E48E2200EC6F65 /* PlacementSettings.swift in Sources */,
+				A78C229325E47D7F00EC6F65 /* Model.swift in Sources */,
+				A78C228625E4440B00EC6F65 /* BrowseView.swift in Sources */,
 				A710DDAA25E2C46900B00E3C /* ContentView.swift in Sources */,
+				A78C228125E430AE00EC6F65 /* ControlView.swift in Sources */,
 				A710DDA825E2C46900B00E3C /* ARFApp.swift in Sources */,
+				A77036D625E73261002EE616 /* PlacementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
