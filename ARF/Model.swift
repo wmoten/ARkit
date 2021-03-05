@@ -119,7 +119,7 @@ class ARQLThumbnailGenerator {
             renderer.scene = scene
         } else {
             let asset = MDLAsset(url: url)
-            asset.loadTextures()
+            //asset.loadTextures()
             let scene = SCNScene(mdlAsset: asset)
             renderer.scene = scene
         }
